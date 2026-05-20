@@ -1,6 +1,7 @@
 ﻿using Models.Animal;
 using Models.TransportSystem;
 using Models.EmployeeSystem;
+using Models.Person;
 
 
 // var dog = new Dog();
@@ -35,29 +36,42 @@ using Models.EmployeeSystem;
 // train.Move();
 // train.CarryPassengers();
 
-var developer = new Developer();
-developer.Name = "Alex";
-developer.Salary = 1000;
-developer.Work();
-developer.Code();
+// Console.WriteLine("Objects for Eployee System \n");
+// var developer = new Developer();
+// developer.Name = "Alex";
+// developer.Salary = 1000;
+// developer.Work();
+// developer.Code();
+
+// Console.WriteLine();
+
+// var teacher = new Teacher();
+// teacher.Name = "Bob";
+// teacher.Salary = 1200;
+// teacher.Work();
+// teacher.Teach();
+
+// Console.WriteLine();
+
+// var designer = new Designer();
+// designer.Name = "Oscar";
+// designer.Salary = 800;
+// designer.Work();
+// designer.Design();
+
+Console.WriteLine("Objests for class Person");
+
+var student = new Student("Ali");
+student.Grade = 5;
+student.ShowName();
+student.ShowGrade();
 
 Console.WriteLine();
 
-var teacher = new Teacher();
-teacher.Name = "Bob";
-teacher.Salary = 1200;
-teacher.Work();
-teacher.Teach();
-
-Console.WriteLine();
-
-var designer = new Designer();
-designer.Name = "Oscar";
-designer.Salary = 800;
-designer.Work();
-designer.Design();
-
-
+var teacher1 = new TeacherPerson("Hasan");
+teacher1.Subject = "Math";
+teacher1.ShowName();
+teacher1.ShowSubject();
 
 
 
