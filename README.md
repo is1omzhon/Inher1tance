@@ -12,3 +12,9 @@
 
 ### 4 Class Person
 ![4 Programma ishlashi](/assets/4.gif)
+
+### 5 Class Person
+![5 Programma ishlashi](/assets/5.gif)
+
+### 6 Class Game Character
+![6 Programma ishlashi](/assets/6.gif)
