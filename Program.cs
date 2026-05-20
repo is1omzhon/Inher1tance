@@ -3,6 +3,7 @@ using Models.TransportSystem;
 using Models.EmployeeSystem;
 using Models.Person;
 using Models.GameCharacters;
+using Models.BankSystem;
 
 
 // var dog = new Dog();
@@ -79,16 +80,39 @@ using Models.GameCharacters;
 // dog5.SetAge(2);
 // dog5.ShowAge();
 
-Console.WriteLine("\nObjets for class Character");
+// Console.WriteLine("\nObjets for class Character");
 
-var warrior = new Warrior("Assasin", 100);
-warrior.SwordAttack();
+// var warrior = new Warrior("Assasin", 100);
+// warrior.SwordAttack();
+// Console.WriteLine();
+
+// var archer = new Archer("Arch", 80);
+// archer.ShootArrow();
+// Console.WriteLine();
+
+// var mage = new Mage("Mage", 56);
+// mage.CastSpell();
+// Console.WriteLine();
+
+Console.WriteLine("Objects for task 7.");
+
+var saveAcc = new SavingsAccount();
+
+saveAcc.Balance = 1000;
+saveAcc.Deposit = 500;
+
+saveAcc.ShowBalance();
+saveAcc.ShowDeposit();
+saveAcc.AddInterest();
+
 Console.WriteLine();
 
-var archer = new Archer("Arch", 80);
-archer.ShootArrow();
-Console.WriteLine();
+var creditCard = new CreditCard();
 
-var mage = new Mage("Mage", 56);
-mage.CastSpell();
-Console.WriteLine();
+creditCard.Balance = 200;
+creditCard.Deposit = 100;
+creditCard.ShowBalance();
+creditCard.ShowDeposit();
+
+creditCard.TakeCredit(300);
+

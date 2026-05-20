@@ -18,3 +18,6 @@
 
 ### 6 Class Game Character
 ![6 Programma ishlashi](/assets/6.gif)
+
+### 7 Bank System
+![7 Programma ishlashi](/assets/7.gif)
