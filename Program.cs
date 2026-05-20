@@ -2,6 +2,7 @@
 using Models.TransportSystem;
 using Models.EmployeeSystem;
 using Models.Person;
+using Models.GameCharacters;
 
 
 // var dog = new Dog();
@@ -59,19 +60,35 @@ using Models.Person;
 // designer.Work();
 // designer.Design();
 
-Console.WriteLine("Objests for class Person");
+// Console.WriteLine("Objests for class Person");
 
-var student = new Student("Ali");
-student.Grade = 5;
-student.ShowName();
-student.ShowGrade();
+// var student = new Student("Ali");
+// student.Grade = 5;
+// student.ShowName();
+// student.ShowGrade();
 
+// Console.WriteLine();
+
+// var teacher1 = new TeacherPerson("Hasan");
+// teacher1.Subject = "Math";
+// teacher1.ShowName();
+// teacher1.ShowSubject();
+
+// Console.WriteLine("Object for task 5");
+// var dog5 = new Dog();
+// dog5.SetAge(2);
+// dog5.ShowAge();
+
+Console.WriteLine("\nObjets for class Character");
+
+var warrior = new Warrior("Assasin", 100);
+warrior.SwordAttack();
 Console.WriteLine();
 
-var teacher1 = new TeacherPerson("Hasan");
-teacher1.Subject = "Math";
-teacher1.ShowName();
-teacher1.ShowSubject();
+var archer = new Archer("Arch", 80);
+archer.ShootArrow();
+Console.WriteLine();
 
-
-
+var mage = new Mage("Mage", 56);
+mage.CastSpell();
+Console.WriteLine();
