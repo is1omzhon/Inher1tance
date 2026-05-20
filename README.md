@@ -9,3 +9,6 @@
 
 ### 3 Class Employee System
 ![3 Programma ishlashi](/assets/3.gif)
+
+### 4 Class Person
+![4 Programma ishlashi](/assets/4.gif)
